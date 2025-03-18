@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sistema de multas</h1>
+    <label for="">velocidae do carro</label>
+    <input type="number" name="" id="velocidade">
+    <button onclick="verificaVelocidade()">verificar</button>
+    <p id="texto">velocidade maxima 80km/h</p>
+    <script>
+        function verificaVelocidade(){
+            var txtvelocidade = document.getElementById("velocidade")
+            var velociade = Number(txtvelocidade.value)
+            var texto = document.getElementById("texto")
+            if(velociade > 80){
+                texto.innerHTML = "multado"
+            }else{
+                texto.innerHTML = "velocidade compativel"
+            }
+        }
+    </script>
+</body>
+</html>
