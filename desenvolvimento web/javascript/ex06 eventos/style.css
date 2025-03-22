@@ -1,0 +1,10 @@
+#area{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(6, 93, 93);
+    color: aliceblue;
+    text-align: center;
+    line-height: 200px;
+    text-shadow: 1px 1px black;
+    font-size: 20pt;
+}

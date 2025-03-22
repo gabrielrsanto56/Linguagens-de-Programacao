@@ -11,17 +11,6 @@
     <input type="number" name="" id="velocidade">
     <button onclick="verificaVelocidade()">verificar</button>
     <p id="texto">velocidade maxima 80km/h</p>
-    <script>
-        function verificaVelocidade(){
-            var txtvelocidade = document.getElementById("velocidade")
-            var velociade = Number(txtvelocidade.value)
-            var texto = document.getElementById("texto")
-            if(velociade > 80){
-                texto.innerHTML = "multado"
-            }else{
-                texto.innerHTML = "velocidade compativel"
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
