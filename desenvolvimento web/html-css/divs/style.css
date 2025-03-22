@@ -1,0 +1,8 @@
+div{
+    width: 400px; /*a largura é de 400px*/
+    height: 400px;/*a altura é de 400px*/
+    background-color: aquamarine;
+    margin: 10px 5px 8px 3px; /*margem externa a div, com 10px em cima, 5px na direita, 8px em baixo e 3px na esquerda*/
+    padding: 10px 5px 8px 3px; /*espaço interno a div, com 10px em cima, 5px na direita, 8px em baixo e 3px na esquerda*/
+    border-radius: 5px; /*arredonda as bordas em 5px*/
+}

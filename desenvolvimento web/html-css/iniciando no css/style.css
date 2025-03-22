@@ -1,0 +1,13 @@
+h1{
+    background-color: antiquewhite; /* background-color modifica a cor de fundo*/
+    color: brown;/*color modifica a cor da fonte*/
+    font-size: 1.5em; /*font-size modifica o tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*modifica a familia da fonte*/
+}
+
+p{
+    background-color: #e3e9ee; /*para modifica a cor do elemento pode se usar rgb (0-255, 0-255, 0-255), valores em hexadeciaml ou o nome da cor*/
+    color: rgb(72, 2, 72);
+    font-size: 2em; /*font-size modifica o tamanho da fonte*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif/*modifica a familia da fonte*/
+}

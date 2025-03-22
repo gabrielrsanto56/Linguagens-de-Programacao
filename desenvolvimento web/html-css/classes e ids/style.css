@@ -1,0 +1,18 @@
+/*para chamar um id se usa #nome_id e uma classe se usa .nome_classe. É uma boa pratica não repetir ids, enquanto classes se podem repetir quantas vezes forem necessárias*/
+.filhas{
+    width: 400px; 
+    height: 400px;
+    background-color: aquamarine;
+    margin: 10px 5px 8px 3px; 
+    padding: 10px 5px 8px 3px; 
+    border-radius: 5px; 
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.333); /*faz uma sombra de 5px pra cima e pra baixo, 3 px pros lados e 10px de espaçamento da cor preta com transparencia de 0.333*/   
+    
+}
+#container{
+    display: flex; /*modo diferente de display, permitindo fazer manipulações diferentes do que é o padrão*/
+    height: 100vh; /*ocupa toda a altura da pagina*/
+    align-items: center; /*centraliza de forma vertical os itens*/
+    justify-content: center; /*centraliza de forma horizontal os itens*/
+    
+}   
