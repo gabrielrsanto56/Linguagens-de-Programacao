@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+button{
+    height: 50px;
+    display: block;
+    margin: 0px 15px 15px 15px ;
+    padding: 5px;
+}
+div{
+    margin: 15px;
+}
+#menu{
+    display: none;
+}
